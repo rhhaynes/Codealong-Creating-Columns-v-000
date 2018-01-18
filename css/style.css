@@ -72,12 +72,12 @@ figcaption {
 
 .col-1 {
   float: left;
-  width: 32%;
+  width: 32%; /* 3 columns with 2% spacing between */
 }
 
 .col-2 {
   float: left;
-  width: 66%;
+  width: 66%; /* 2 columns with 2% spacing between */
 }
 
 .col-3 {
