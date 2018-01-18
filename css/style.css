@@ -1,21 +1,16 @@
 @import url(http://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900);
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script);
 
-/* This 
-is 
-a comment! */
+/* This is a comment! */
 
 /* CSS Syntax:
-
 selector {
   property: value;
   property: value;
 }
-
 */
 
 /* Type selector */
-
 p { /* select all <p> */
   font-size: 1em; /* 16px, ?pt, 100%, 1em */
   line-height: 1.5em;
@@ -32,7 +27,6 @@ figcaption {
 }
 
 /* Class selector (applied to as many elements as you like) */
-
 .milk-text { /* select elements with class="milk-text" */
   font: bold 2.6em 'Elsie Swash Caps', cursive;
   color: white;
@@ -40,13 +34,11 @@ figcaption {
 }
 
 /* ID selector (apply to one unique element per page) */
-
 #logo { /* select elements with id="logo" */
   background: aqua;
 }
 
 /* Descendent Selector */
-
 #logo h1 { /* selects <h1> if inside the id="logo" */
   font-family: 'Clicker Script', cursive;
 }
@@ -56,7 +48,6 @@ figcaption {
 }
 
 /* Psuedo Selector */
-
 #details a:link, #details a:visited {
   color: black;
   text-decoration: none;
@@ -70,3 +61,4 @@ figcaption {
 #details a:active {
   color: red;
 }
+
